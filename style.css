@@ -1,0 +1,157 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 100;
+    background-color: #f0f0f0;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+    text-align: center;
+    padding-bottom: 500px;
+}
+nav ul {
+    list-style-type: square;
+    padding: 0;
+    text-align: center;
+}
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+nav ul li a {
+    color: #333;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: 0.3s background-color;
+}
+nav ul li a:hover {
+    background-color: #555;
+    color: #fff;
+}
+.main {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    border: 3px solid #323232;
+    border-radius: 25px;
+    border-style: groove;
+}
+
+
+.KC {
+    width: 20%; 
+    height: 10%;
+    justify-items: center; 
+}
+
+.additional-section {
+    background-color: #f9f9f9;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+.additional-section h2 {
+    color: #333;
+    font-size: 2em;
+}
+
+html, body {
+    height: 200%;
+}
+
+/* Wrapper to contain all content */
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Full height of viewport */
+}
+
+.content {
+    flex: 1; /* Expand to fill remaining space */
+    padding: 20px;
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+    text-align: center;
+    padding-bottom: 500px;
+  
+
+}
+
+.G {
+    text-align: center;
+    color: rgb(253, 249, 249);
+    background-color: rgb(4, 4, 4); 
+    padding: 20px;
+    margin-top: 20px;
+
+    
+}
+
+
+
+.middle {
+    background-color: #050404;
+    padding: 20px;
+    margin-top: 20px;
+    border: 3px solid #323232;
+    border-radius: 25px;
+    border-style: groove;
+    
+
+}
+
+.ol {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family:Cambria;
+}
+
+.web {
+
+    text-align: center;
+    color: rgb(253, 249, 249);
+    background-color:  #717070; 
+    padding: 20px;
+    margin-top: 20px;
+    
+}
+
+
+.end {
+
+    background-color: #717070;
+    padding: 20px;
+    margin-top: 20px;
+    border: 3px solid #1a1919;
+    border-radius: 25px;
+    border-style: groove;
+    
+}
+
+
+.BB {
+    width: 20%;
+}
+
+.PB {
+    width: 30%;
+    flex-direction: right;
+}
+
+img {
+    justify-content: space-evenly;
+}
